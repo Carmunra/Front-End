@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elementos Flutuantes</title>
+
+	<style type="text/css">
+		
+		#principal{
+			border: 10px solid rebeccapurple;
+			background: green;
+		}
+
+		.conteudo{
+			background: rgba(2, 2, 1  12, 0.795);
+			border: 1px solid gray;
+			width: 150px;
+			height: 150px;
+			float: left;
+			margin: 50px;
+		}
+		.conteudo1{
+			background: red;
+			border: 1px solid gray;
+			width: 150px;
+			height: 150px;
+			float: left;
+			margin: 50px;
+		}
+
+		.clear{
+			clear: both;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="principal">
+		<div class="conteudo">
+			Conteúdo 1
+		</div>
+		<div class="conteudo">
+			Conteúdo 2
+		</div>
+		<div class="conteudo">
+			Conteúdo 3
+		</div>
+		<div>
+			<p class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus libero ligula,
+			eu molestie enim varius eu. Cras dapibus odio ut lacus bibendum iaculis. Cras tellus urna,
+			vulputate ac tortor vel, maximus feugiat purus. Praesent facilisis ornare tempus.
+			Aliquam erat volutpat. Donec ac orci tellus. Integer tempus consectetur malesuada.
+			Sed non nunc id lectus accumsan tincidunt eget vitae felis. Donec molestie augue id
+			auctor aliquam. Pellentesque pellentesque scelerisque lectus, nec rhoncus ligula feugiat 
+			non. Donec laoreet turpis id nisi accumsan molestie. Nullam in ullamcorper lorem.
+
+			Etiam gravida ex enim, ac congue augue pharetra lobortis. Curabitur quam erat, accumsan 
+			efficitur quam nec, aliquet molestie sapien. Nam sagittis ligula leo, id vehicula tortor 
+			vulputate in. Integer quis ornare nulla. Aenean ultricies turpis justo, non posuere nibh 
+			pellentesque sit amet. Phasellus at quam porta, semper diam pharetra, facilisis dolor. 
+			Duis venenatis diam ut ante egestas, a maximus metus aliquam. Sed ac augue et enim ultricies 
+			bibendum vitae sit amet urna. Aliquam lacinia consectetur risus eu imperdiet. Nunc tincidunt 
+			rhoncus leo, at condimentum elit vehicula id. Maecenas tincidunt laoreet fringilla. Ut aliquet 
+			turpis eget eros aliquet convallis. Quisque vestibulum vestibulum elit id sodales.</p>	
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</body>
+</html>
